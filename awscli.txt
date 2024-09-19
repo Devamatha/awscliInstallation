@@ -1,0 +1,32 @@
+aws cli installation in windows
+-> click on url https://awscli.amazonaws.com/AWSCLIV2.msi
+1.check the aws version using this command aws --version
+2.set the aws credentials using aws configure
+*please enter accessKeyId
+*please enter secret key
+region also 
+format type
+3.check weither registred or not -aws rekognition list-faces --collection-id "imageComparision"
+4 delete faceId query aws rekognition delete-faces --collection-id "imageComparision" --face-ids 
+
+
+
+aws cli installation in vps server or aws instance
+
+aws --version
+sudo apt install awscli
+aws --version
+apt install awscli 2.14.6-1
+sudo apt update
+apt install awscli 2.14.6-1
+sudo apt install awscli
+or
+sudo snap install aws-cli
+curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+unzip awscliv2.zip
+sudo apt install unzip
+unzip awscliv2.zip
+sudo ./aws/install
+aws --version
+aws sts get-caller-identity
+aws configure
